@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    max-width: auto;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+.titre{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.extra{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: stretch;
+    margin-bottom: 45px;
+}
+
+.box{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 5px #ccc;
+	text-align: center;
+	max-width: 400px;
+	width: 100%;
+    margin-bottom: 45px;
+    transform: scale(1);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.box:hover{
+    transform: scale(1.06);
+    transition: all 0.3s ease;
+    border: 2px solid #A410A4;
+    border-radius: 10px;
+}
+
+
+.box img{
+    max-width: 100%;
+	max-height: 100%;
+	margin-bottom: 30px;
+    object-fit: cover;
+    -webkit-user-drag: none;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.box h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.box h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 18px;
+}
+
+.box p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    height: 42vh;
+}
+
+.button{
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fafafa;
+    background-color: #A410A4;
+    margin: 25px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
+    position: relative;
+
+}
+
+.button:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+    background-color: #670A67;
+}
+
+.button:active{
+    transform: scale(0.95);
+    transition: all 0.1s ease-in-out;
+    background-color: #670A67;
+}
+
+.extra a{
+    text-decoration: none;
+}

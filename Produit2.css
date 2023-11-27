@@ -1,0 +1,283 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #290429;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+main {
+	padding: 0px;
+}
+
+.titrelitho{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+}
+
+.product {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.product img {
+	margin-right: 60px;
+    width: 480px;
+    height: auto;
+    align-self: flex-start;
+    transform: scale(1);
+	transition: all 0.5s ease-in-out;
+	box-shadow: 0px 0px 12px black;
+}
+
+.product img:hover {
+    transform: scale(1.08);
+	transition: all 0.5s ease-in-out;
+	border-radius: 35px;
+	box-shadow: 0px 0px 25px black;
+}
+
+.product-info {
+	max-width: 600px;
+}
+
+.product-info h2 {
+	font-size: 30px;
+	margin-top: 0;
+}
+
+.product-info ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.product-info ul li {
+	margin-bottom: 10px;
+}
+
+.product-info p {
+	line-height: 1.5;
+	margin-top: 20px;
+}
+
+.livraison{
+    font-size: 23px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.prix{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .track{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .track-left{
+
+    flex: 1;
+  }
+
+  .track-left2{
+
+    flex: 1;
+  }
+
+  .track-right{
+    flex: 1;
+  }
+
+  .track-right2{
+    flex: 1;
+  }
+
+ 
+    
+/* Vinyle qui tourne et description */
+
+  .product2{
+    background-color: #fafafa;
+  }
+  
+
+  .product2 h3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .product2 h1{
+    text-align: center;
+  }
+  .product2 li{
+    text-align: center; 
+
+  }
+
+  .track{
+    list-style: none;
+    padding-top: 105px;
+    margin-bottom: 155px;
+  }
+
+
+/* Image droite à gauche 1 */
+
+  .partie2{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+  }
+
+  .left-section {
+	background-color: #290429;
+	padding: 20px;
+	flex: 1;
+	justify-content: center;
+	display: flex;
+	width: 50%;
+	height: 1200px;
+    align-items: center;
+  }
+  
+  .left-section img {
+	width: auto;
+	height: 850px;
+	top: 50%;
+	left: 50%;
+	animation: rotation 14.544s infinite linear;
+	-webkit-user-drag: none;
+  }
+
+
+
+  @keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+  
+  .right-section {
+	flex: 1;
+	background-color: #EEEEEE;
+	text-align: center;
+	padding: 150px;
+	top: 50%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .right-section h2 {
+	font-size: 50px;
+	margin-top: 0;
+	color: #290429;
+  }
+  
+  .right-section p {
+	color: #290429;
+	font-size: 25px;
+	line-height: 1.5;
+  }
+
+
+/* Image gauche à droite 2 */
+
+  .left-section2 {
+	background-color: #EEEEEE;
+	padding: 20px;
+	flex: 1;
+	justify-content: center;
+	display: flex;
+	width: 50%;
+	height: 1200px;
+    align-items: center;
+  }
+  
+  .left-section2 img {
+	width: auto;
+	height: 900px;
+	top: 50%;
+	left: 50%;
+	-webkit-user-drag: none;
+  }
+  
+  .right-section2 {
+	flex: 1;
+	background-color: #290429;
+	text-align: center;
+	padding: 150px;
+	top: 50%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .right-section2 h2 {
+	font-size: 50px;
+	margin-top: 0;
+	color: #EEEEEE;
+  }
+  
+  .right-section2 p {
+	color: #EEEEEE;
+	font-size: 25px;
+	line-height: 1.5;
+  }
+
+  .savoirplus{
+	transform: scale(1);
+	transition: all 0.2s ease-in-out;
+}
+  
+
+ .savoirplus:hover{
+	transform: scale(1.1);
+	transition: all 0.2s ease-in-out;
+	color: #fff;
+	background-color: #A410A4;
+	border-radius: -25px;
+}
+
+.savoirplus:active{
+	transform: scale(1);
+	transition: all 0.1s ease-in-out;
+	background-color: #670A67;
+  }
+
+.right-section2 a {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #111;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+  }
+
+  form{
+
+	padding-bottom: 20px;
+  }

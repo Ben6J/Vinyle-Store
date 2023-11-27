@@ -1,0 +1,169 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #fafafa;
+}
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	background-color: #290429;
+	color: #fff;
+  }
+
+  
+  .logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: scale(1);
+	transition: all 0.3s ease-in-out;
+	margin: 15px;
+  }
+  
+  .logo img {
+	width: 110px;
+	height: 110px;
+	-webkit-user-drag: none;
+  }
+
+  .logo:hover{
+	transition: all 0.2s ease-in-out;
+	animation: rotation 1.818s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+nav{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+  
+  nav li {
+	margin: 0 10px;
+	transform: scale(1);
+	transition: all 0.2s ease;
+	user-select: none;
+  }
+  
+  nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	transition: all 0.2s ease;
+	animation: rotation 1.818s infinite linear;
+  }
+  
+  nav a:hover {
+	color: #da16da;
+  }
+
+  nav ul li:hover {
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	color: #da16da;
+  }
+
+  nav ul li:active{
+	transform: scale(1);
+	transition: all 0.1s ease-in-out;
+  }
+
+  nav a:active {
+	color: #900E90;
+  }
+
+  
+main {
+	max-width: auto;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: #290429;
+	color: #ffff;
+	padding: 30px 0;
+	text-align: center;
+    justify-content: center;
+	padding-top: 50px;
+	
+  }
+
+
+  
+  footer h3 {
+	color: #ffff;
+	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 20px;
+  }
+  
+  footer ul {
+	list-style: none;
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+	justify-content: center;
+  }
+  
+  footer ul li {
+	margin-bottom: 10px;
+  }
+  
+  .info {
+	display: block;
+  }
+
+  footer ul li a {
+	color: #ffff;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+  }
+  
+  footer ul li a:hover {
+	color: #da16da;
+	transition: all 0.2s ease-in-out;
+  }
+  
+  footer hr {
+	border-top: 1px solid #ffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  
+  footer p.text-center {
+	margin-top: 20px;
+	margin-bottom: 0;
+	font-size: 14px;
+	color: #ffff;
+  }
+
+  footer .categorie li{
+	padding-right: 12px;
+  }
+  

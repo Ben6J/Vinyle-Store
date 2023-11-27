@@ -1,0 +1,89 @@
+.boutique {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .boutique h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .boutique h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .boutique p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .image{
+    position: relative;
+	  width: 100%;
+	  height: 450px;
+
+  }
+
+  .boutique img{
+    width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	  -webkit-user-drag: none;
+    border-radius: 15px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    display: flex;
+  }
+
+  .adresse {
+    margin: 0;
+    margin-top: 85px;
+
+  }
+
+  .description{
+    margin-top: 85px;
+  }
+  
+  .horaires{
+    margin-top: 65px;
+  }
+  
+  .horaires h3{
+    margin-bottom: 50px;
+  }
+  
+  .adresse iframe {
+    width: 1200px;
+    height: 600px;
+    transition: all 0.6s ease-in-out;
+    border-radius: 15px;
+    
+  }
+
+  .adresse iframe:hover {
+    width: 1200px;
+    height: 1000px;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .horaires {
+    margin-bottom: 30px;
+  }
+  
+  .description {
+    margin-bottom: 30px;
+  }
+
+.boutique h2{
+  text-align: left;
+  font-size: 38px;
+
+}
+
+.adresse p{
+  margin-bottom: 25px;
+}
